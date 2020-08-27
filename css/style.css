@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-size: 14px;
+    color: #21252D;
+    background-color: #f6f6f6;
+}
+a, a:visited {
+    color: #6c757d;
+}
+a:active, a:hover, #active-page {
+    text-decoration: none;
+    color: #21252D;
+}
+/**********header**********/
+header {
+    background-color: #FFFFFF;
+    max-width: 1280px;
+    margin: auto;
+}
+#myweb {
+    color: #21252D;
+    font-size: 2em;
+    display: inline-block;
+    margin: 10px 0;
+}
+#navbar a {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+#menu-icon {
+    width: 14px;
+}
+/**********hero-section**********/
+#hero-section {
+    position: relative;
+    width: fit-content;
+    padding: 0;
+    margin: 0 auto;
+}
+#hero-text {
+    color: #ebfbf5;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #31c287;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+    top: 16%;    
+}
+/**********content-section**********/
+.icons {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.section-head {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #bbbfc3;
+}
+.img-box {
+    margin-top: 2em;
+}
+#recent-work p, #from-blog p {
+    margin: 0;
+}
+#from-blog>div>p:last-child{
+    margin-top: 15px;
+}
+/**********footer**********/
+footer {
+    background-color: #222222;
+    margin: 30px auto auto;
+    padding-top: 10px;
+    max-width: 1280px;
+}
+footer h6 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer a, footer a:visited, footer a:hover {
+    display: block;
+    color: #959595;
+    border-top: 1px solid #303030;
+}
+footer a:last-child {
+    border-bottom: 1px solid #303030;
+    margin-bottom: 16px;
+}
+#footer-post a {
+    padding: 3px;
+}
+footer>div:last-child>a {
+    margin: 20px auto 0;
+    padding: 20px;
+    border: none;
+    background-color: #111111;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #hero-text {
+        font-size: 0.9em;
+        left: 25%;
+        top: 10%;
+    }
+} 
+@media screen and (max-width: 576px) {
+    #hero-text {
+        font-size: 0.9em;
+        padding: 5px 10px;
+        margin-left: -150px;
+        left: 50%;
+        top: 50%;
+    }
+}   
+@media screen and (max-width: 576px) and (min-width: 446px) {
+    #recent-work p {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+   
+
